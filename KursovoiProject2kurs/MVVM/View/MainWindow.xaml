@@ -1,0 +1,97 @@
+﻿<Window x:Class="KursovoiProject2kurs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiProject2kurs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="950" ScrollViewer.VerticalScrollBarVisibility="Visible" Visibility="Visible" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Name="MainMyViewWnd">
+    <Window.Resources>
+        <Cursor x:Key="UserCursor">E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\NormalSelect.cur</Cursor>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate5">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="50" >
+                <ContentControl FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Сортировка" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate6">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="50" >
+                <ContentControl FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Профиль" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate7">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="50" >
+                <ContentControl FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Выход" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate8">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="50" >
+                <ContentControl FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="Сброс фильтрации" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate9">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="50" >
+                <ContentControl FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="Поиск" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid Height="500" VerticalAlignment="Center" Background="#272537" Cursor="{StaticResource UserCursor}">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.8*"/>
+        </Grid.ColumnDefinitions>
+        <Border  BorderThickness="1" Grid.Column="0" Margin="0">
+            <StackPanel Grid.Column="0">
+                <Button  Command="{Binding SortGood}" Height="50" Margin="0 50 0 15" Template="{StaticResource btTemplate5}" />
+                <Button  Command="{Binding ResetFilters}" Height="50" Template="{StaticResource btTemplate8}" Margin="0 0 0 15"/>
+                <Button  Command="{Binding OpenUserWnd}" Height="50" CommandParameter="{Binding ElementName=MainMyViewWnd}" Margin="0 0 0 15" Template="{StaticResource btTemplate6}"/>
+                <Button  Command="{Binding SearchGood}" Height="50" Template="{StaticResource btTemplate9}" Margin="0 0 0 15"/>
+                <TextBox 
+                Width="180"
+                Height="40" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left" 
+                Margin="5 0 5 15"
+                Text="{Binding IPhones}"
+                Foreground="White"
+                Background="Wheat"
+                
+                />
+                <Button Name="Exit" Content="Выход" Command ="{Binding ExitMainWnd}" Height="50" Margin="0 50 0 0" Template="{StaticResource btTemplate7}"
+                     CommandParameter="{Binding ElementName=MainMyViewWnd}" Cursor="Hand"/>
+            </StackPanel>
+        </Border>
+        <ListBox Grid.Column="1" x:Name="ViewAllGoods" ItemsSource="{Binding AllGoods}"
+                          SelectedItem="{Binding SelectedGoods}" Foreground="White" >
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Купить" Command="{Binding BuyGood}"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5" >
+                        <TextBlock FontSize="18" Text="{Binding Path=Name}" />
+                        <TextBlock Text="{Binding Path=Category}"/>
+                        <TextBlock Text="{Binding Path=Price}"/>
+                        <TextBlock Text="{Binding Path=Country}"/>
+                        <TextBlock Text="{Binding Path=Description}"/>
+                        <Image Source="{Binding Path=NoteImage.Picture}" Width="100" Height="100" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+    
+</Window>

@@ -1,0 +1,101 @@
+﻿<Window x:Class="KursovoiProject2kurs.MVVM.View.Information"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiProject2kurs.MVVM.View"
+        mc:Ignorable="d"
+        Title="Information" Height="600" Width="1000" WindowStartupLocation="CenterScreen" ScrollViewer.VerticalScrollBarVisibility="Visible" AllowsTransparency="True" WindowStyle="None" >
+    <Window.Resources>
+        <Cursor x:Key="UserCursor">E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\NormalSelect.cur</Cursor>
+    </Window.Resources>
+    <Grid Background="#272537" Cursor="{StaticResource UserCursor}">
+        <Button Content="&lt;" VerticalAlignment="Top" 
+                HorizontalAlignment="Left" 
+                FontSize="18"
+                Foreground="White"
+                Background="#272537"
+                BorderBrush="#272537"
+                Click="Back_Click" Cursor="Hand"/>
+        <StackPanel>
+            <Border CornerRadius="20"
+                Width="900" 
+                Height="300" 
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="20 20 20 20"
+                Background="#ffe5b4">
+                <TextBlock Text="Apple Store"
+                           FontSize="100"
+                           Foreground="White"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           />
+            </Border>
+            <StackPanel>
+                <Border Width="900"
+                        Margin="20 0 20 20"
+                        Height="240" 
+                        CornerRadius="20"
+                        Background="White"
+                        >
+                    <Grid>
+                        <StackPanel Width="420" Height="250" VerticalAlignment="Center" HorizontalAlignment="Left">
+                            <TextBlock
+                               FontSize="30"
+                               Foreground="Black"
+                               Margin="30 20 100 0"
+                               Width="300"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Left">
+                             <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\GitHub.png"
+                               Height="50" Width="50" VerticalAlignment="Bottom"/>
+                                @Lilkrug
+                            </TextBlock>
+                        <TextBlock 
+                               FontSize="30"
+                               Foreground="Black"
+                               Margin="30 20 100 0"
+                               Width="300"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Left">
+                             <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\Git.png"
+                               Height="50" VerticalAlignment="Bottom"/>
+                                v 1.0
+                        </TextBlock>
+                            <TextBlock 
+                               FontSize="30"
+                               Foreground="Black"
+                               Margin="30 20 100 0"
+                               Width="300"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Left">
+                            <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\Copiryght.png"
+                               Height="50" VerticalAlignment="Bottom"/>
+                                Copyright(C)2022
+                            </TextBlock>
+                    </StackPanel>
+                        <StackPanel Width="480" Height="250" VerticalAlignment="Center" HorizontalAlignment="Right">
+                            <TextBlock x:Name="Inf"
+                                       FontSize="24"
+                                       TextAlignment="Left"
+                                       Margin="20 50 20 30"
+                                       Height="160"
+                                       Foreground="Black">
+                                Apple Store - это приложение кото-
+                                <LineBreak />
+                                рое позволяет осуществить продажу
+                                <LineBreak />
+                                мобильных телефонов, а также
+                                <LineBreak />
+                                другой продукции Apple и аксессуаров 
+                                <LineBreak />
+                                сторонних производителей для неё
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,203 @@
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.exe
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.deps.json
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.runtimeconfig.json
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\ref\KursovoiProject2kurs.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.pdb
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\App.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs_MarkupCompile.cache
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs_MarkupCompile.lref
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.g.resources
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.AssemblyInfoInputs.cache
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.AssemblyInfo.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.CoreCompileInputs.cache
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\ref\KursovoiProject2kurs.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.pdb
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.genruntimeconfig.cache
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\App.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.CopyComplete
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Azure.Core.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Azure.Identity.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.dll.config
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\EntityFramework.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.Data.SQLite.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.Data.SQLite.EF6.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\Support.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\Support.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\AuthWindow.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\MainWindow.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\RegsWindow.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopWindow.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\AuthWindow.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\MainWindow.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\RegsWindow.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopWindow.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.AssemblyReference.cache
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\IPhone.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\IPhone.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\Information.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\Information.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\Basket.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\Basket.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\OutPutGoods.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\OutPutGoods.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\Language\lang.en-US.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\Language\lang.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\AddGoods.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\EditBasket.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\AddGoods.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\EditBasket.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\EditItem.g.cs
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\UI\ShopUI\EditItem.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\LightTheme.baml
+E:\Education\2 курс 2 сем\ООП 2 сем\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\BlackTheme.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.exe
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.dll.config
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.deps.json
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.runtimeconfig.json
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\ref\KursovoiProject2kurs.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\KursovoiProject2kurs.pdb
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Azure.Core.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Azure.Identity.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\EntityFramework.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\Language\lang.en-US.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\Language\lang.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\BlackTheme.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\LightTheme.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\App.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs_MarkupCompile.cache
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs_MarkupCompile.lref
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\App.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.g.resources
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.AssemblyInfoInputs.cache
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.AssemblyInfo.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.CoreCompileInputs.cache
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.CopyComplete
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\ref\KursovoiProject2kurs.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.pdb
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.genruntimeconfig.cache
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Humanizer.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\AddGoods.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\AuthWindow.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\EditItem.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\Information.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\IPhone.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\OutPutGoods.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\RegsWindow.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\ShopWindow.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\Support.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\AddGoods.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\AuthWindow.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\EditItem.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\Information.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\IPhone.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\OutPutGoods.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\RegsWindow.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\ShopWindow.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\Support.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\MessageView.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\MessageView.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\UserWindow.g.cs
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\MVVM\View\UserWindow.baml
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.Properties.Resources.resources
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.GenerateResource.cache
+E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\obj\Debug\net6.0-windows\KursovoiProject2kurs.csproj.AssemblyReference.cache

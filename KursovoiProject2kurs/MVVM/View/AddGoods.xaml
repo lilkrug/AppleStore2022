@@ -1,0 +1,101 @@
+﻿<Window x:Class="KursovoiProject2kurs.MVVM.View.AddGoods"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiProject2kurs.MVVM.View"
+        mc:Ignorable="d"
+        Title="AddGoods" Height="600" Width="1000" WindowStartupLocation="CenterScreen" ScrollViewer.VerticalScrollBarVisibility="Visible" AllowsTransparency="True" WindowStyle="None"
+        Name ="OpenAddGoodsWnd">
+    <Window.Resources>
+        <Cursor x:Key="UserCursor">E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\NormalSelect.cur</Cursor>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate1">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC"
+                    Background="#F5F5DC" Height="60" >
+                <ContentControl  FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Content="{DynamicResource AddPicture}" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate3">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="60" >
+                <ContentControl FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Content="{DynamicResource AddItemBasket}" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate4">
+            <Border CornerRadius="25" BorderBrush="#F5F5DC" 
+                    Background="#F5F5DC" Height="60" >
+                <ContentControl FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Content="{DynamicResource ClearItem}" Foreground="Black" />
+            </Border>
+        </ControlTemplate>
+        <Style TargetType="TextBlock" x:Key="Texts1">
+            <Setter Property="Foreground" Value="#99aab5"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="paramsText">
+            <Setter Property="Foreground" Value="#99aab5"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="TextAlignment" Value="Left"/>
+        </Style>
+        
+    </Window.Resources>
+    <Border Background="#272537" Cursor="{StaticResource UserCursor}">
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Content="&lt;" VerticalAlignment="Top" 
+                HorizontalAlignment="Left" 
+                FontSize="18"
+                Foreground="White"
+                Background="#272537"
+                BorderBrush="#272537"
+                Click="Back_Click" Cursor="Hand"/>
+            <StackPanel Grid.ColumnSpan="2">
+                <TextBlock x:Name="AddItem" Text="{DynamicResource AddItem}" Style="{StaticResource Texts1}" Margin="50 0 20 0" />
+            </StackPanel>
+            <StackPanel  Grid.ColumnSpan="1"  Grid.Row="1" Grid.RowSpan="10">
+                <Image x:Name="ItemPicture"  Margin="10,10,10,0"  HorizontalAlignment="Left" Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources/IPhoneStyle1.jpg"/>
+                <Button x:Name="ButtonAddPicture" Margin="10,20,0,0" Width="230"  Height="60" Command="{Binding AddNewImage}" Template="{StaticResource btTemplate1}" Cursor="Hand">
+                    <TextBlock Text="{DynamicResource AddPicture}"/>
+                </Button>
+                <Button x:Name="ButtonAddItem" Width="230" Height="60" Margin="10,15,0,0" Command="{Binding AddNewIPhone}" CommandParameter="{Binding ElementName=OpenAddGoodsWnd}" Template="{StaticResource btTemplate3}" Cursor="Hand">
+                    <TextBlock Text="{DynamicResource AddItemBasket}"/>
+                </Button>
+                <Button x:Name="ButtonClearInfo" Width="230"  Margin="10,15,0,0" Height="60" Command="{Binding }"  Template="{StaticResource btTemplate4}" Cursor="Hand">
+                    <TextBlock Text="{DynamicResource ClearItem}"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Grid.Row="2">
+                <StackPanel Grid.Row="1" Grid.Column="2" Height="54">
+                    <TextBlock x:Name="TextBlockNameGood" Style="{StaticResource paramsText}" Text="{DynamicResource ItemName}"></TextBlock>
+                    <TextBox Name="TextBoxNameGood" Text="{Binding IPhoneName}" Width="150" Margin="160,-24,0,0" Height="30" Background="White"></TextBox>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="2" Height="54">
+                    <TextBlock x:Name="TextBlockCategory" Style="{StaticResource paramsText}" Text="{DynamicResource Category}"></TextBlock>
+                    <TextBox Name="ComboBoxCategory" Text="{Binding IPhoneCategory}" Width="150" Height="30" Margin="160,-22,0,0" Background="White"/>
+                </StackPanel>
+                <StackPanel Grid.Row="3" Grid.Column="2" Height="53">
+                    <TextBlock x:Name="TextBlockPrice" Style="{StaticResource paramsText}" Text="{DynamicResource Price}"></TextBlock>
+                    <TextBox Name="TextBoxPrice" Text="{Binding IPhonePrice}" Width="100" Margin="160,-24,50,0" Height="30"  Background="White" Cursor="IBeam"></TextBox>
+                    <TextBlock x:Name="TextBlockCurrency" Style="{StaticResource paramsText}" Width="50" Height="20" Margin="300,-20,0,0" Text="{DynamicResource Currency}"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Grid.Column="2" Height="53">
+                    <TextBlock x:Name="TextBlockCountry" Style="{StaticResource paramsText}" Text="{DynamicResource Country}"></TextBlock>
+                    <TextBox Name="TextBoxCountry" Text="{Binding IPhoneCountry}" Width="150" Margin="160,-24,0,0" Height="30" Background="White"></TextBox>
+                </StackPanel>
+                <StackPanel Grid.Row="6" Grid.Column="2" Height="264">
+                    <TextBlock x:Name="TextBlockDescription" Style="{StaticResource paramsText}" Text="{DynamicResource Description}"></TextBlock>
+                    <TextBox Name="TextBoxDescription" Text="{Binding IPhoneDescription}" Width="320" Height="180" Margin="-10,20,0,0" Background="White" Cursor="Arrow"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

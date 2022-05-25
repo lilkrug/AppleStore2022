@@ -1,0 +1,130 @@
+﻿<Window x:Class="KursovoiProject2kurs.ShopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:viewModel="clr-namespace:KursovoiProject2kurs.MVVM.ViewModel"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="" Height="600" Width="1000"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+         WindowStartupLocation="CenterScreen"
+        Name="ShopWnd">
+
+    <Window.Resources>
+        <Cursor x:Key="UserCursor">E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\NormalSelect.cur</Cursor>
+    </Window.Resources>
+    <Border Background="#272537" Cursor="{StaticResource UserCursor}" >
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Apple Store" x:Name="Apple" Height="50" Foreground="White" FontSize="22" Margin="0 15 0 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel  Grid.Row="1">
+                
+                <RadioButton Content="{DynamicResource HomeShop}"
+                             x:Name="HomeShop"
+                             Height="80"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuBottonTheme}"
+                             Click="Home_Click"/>
+                <RadioButton Content="{DynamicResource IPhoneShop}"
+                             x:Name="IPhoneShop"
+                             Height="80"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuBottonTheme}"
+                             Command="{Binding OpenIPhoneWnd}"/>
+                <RadioButton Content="{DynamicResource InformationShop}"
+                             x:Name="InformationShop"
+                             Height="80"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuBottonTheme}"
+                             Command="{Binding OpenInformationWnd}"/>
+                <RadioButton x:Name="Exit"
+                             Content="{DynamicResource Exit}"
+                             Height="80"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuBottonTheme}"
+                             Command="{Binding ExitMainWnd}"
+                             CommandParameter="{Binding ElementName=ShopWnd}"/>
+            </StackPanel>
+            <TextBox 
+                Width="250"
+                Height="40" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left" 
+                Margin="5"
+                Grid.Column="1" 
+                Style="{StaticResource ModernTextBox}"/>
+            <Button 
+                Content="X"
+                Width="40"
+                Height="40"
+                Background="#272537"
+                FontSize="14"
+                BorderBrush="#272537"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Grid.Column="1"
+                Click="Exit_Click" Cursor="Hand"/>
+            <Button 
+                Content="-"
+                Width="40"
+                Height="40"
+                Background="#272537"
+                FontSize="14"
+                BorderBrush="#272537"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Grid.Column="1"
+                Margin="0 0 40 0"
+                Click="Weld_Click" Cursor="Hand"
+                />
+            <Button 
+                Height="40"
+                Width="60"
+                Background="#272537"
+                BorderBrush="#272537"
+                Grid.Row="1"
+                Margin="80 180 0 0"
+                BorderThickness="0"
+                Click="Russia_Click" Cursor="Hand"
+                Tag="en-US"
+                >
+                <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\Russia1.png"/>
+            </Button>
+            <Button 
+                Height="40"
+                Width="60"
+                Background="#272537"
+                BorderBrush="#272537"
+                Grid.Row="1"
+                Margin="-80,180,0,0"
+                Click="America_Click"
+                BorderThickness="0"
+                Tag="ru-RU" Cursor="Hand">
+                <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\America.png"/>
+            </Button>
+            <Grid
+                Grid.Row="2"
+                Grid.Column="2">
+                <MediaElement x:Name="myVideo" Margin="5" Source="E:\Phone\Представляем iPhone 13 Pro – Apple.mp4" LoadedBehavior="Manual"  VerticalAlignment="Top"/>
+                <Button x:Name="Play" Content="Play" Foreground="Black" FontSize="20" Background="White" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="100" Height="50" Margin= "200 0 0 15" Click="Button_Click_Play"/>
+                <Button x:Name="Stop" Content="Stop" Foreground="Black" FontSize="20" Background="White" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="100" Height="50" Margin="0 0 200 15" Click="Button_Click_Stop"/>
+            </Grid>
+        </Grid>
+    </Border>
+
+</Window>

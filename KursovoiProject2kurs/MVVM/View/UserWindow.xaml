@@ -1,0 +1,67 @@
+﻿<Window x:Class="KursovoiProject2kurs.MVVM.View.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiProject2kurs.MVVM.View"
+        mc:Ignorable="d"
+        Title="UserWindow" Height="500" Width="950" WindowStartupLocation="CenterScreen" AllowsTransparency="True" WindowStyle="None">
+    <Window.Resources>
+        <Cursor x:Key="UserCursor">E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\NormalSelect.cur</Cursor>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate10">
+            <Border CornerRadius="25" BorderBrush="#2c2f33" 
+                    Background="#2c2f33" Height="50" >
+                <ContentControl FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Поддержка" Foreground="White" />
+            </Border>
+        </ControlTemplate>
+
+    </Window.Resources>
+    <Grid Background="#F5F5DC" Cursor="{StaticResource UserCursor}" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*" />
+            <ColumnDefinition Width="0.8*"/>
+        </Grid.ColumnDefinitions>
+        <ListView Grid.Column="1" x:Name="ViewCurrentOrders" ItemsSource="{Binding AllCurrentOrders}" SelectedItem="{Binding SelectedOrder}">
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Отменить" Command="{Binding CancelOrder}"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Order Id" Width="115"
+                                            DisplayMemberBinding="{Binding Path=Id}"/>
+                    <GridViewColumn Header="Image">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Path=good.NoteImage.Picture}" Width="60" Height="60" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Name" Width="100"
+                                            DisplayMemberBinding="{Binding Path=good.Name}"/>
+                    <GridViewColumn Header="Category" Width="120"
+                                            DisplayMemberBinding="{Binding Path=good.Category}"/>
+                    <GridViewColumn Header="Price" 
+                                            DisplayMemberBinding="{Binding Path=good.Price}"/>
+                    <GridViewColumn Header="Country" Width="115"
+                                            DisplayMemberBinding="{Binding Path=good.Country}"/>
+                    <GridViewColumn Header="Description" Width="135"
+                                            DisplayMemberBinding="{Binding Path=good.Description}"/>
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="&lt;" VerticalAlignment="Top" 
+                HorizontalAlignment="Left"
+                Foreground="White"
+                Width="40"
+                Height="30"
+                Background="#272537"
+                Click="Back_Click" Cursor="Hand"/>
+        <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\free-icon-user-7182164.png" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 30 0 0"/>
+        <TextBlock Text="Пользователь" Margin="0 220 0 0" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="{Binding Login}" Width="150" Height="40" Background="#2c2f33" Margin="0 30 0 0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"  Foreground="White"/>
+        <Button Content="Поддержка" Command="{Binding OpenSupportWnd}" Margin="0 140 0 0" Template="{StaticResource btTemplate10}" Height="50" Cursor="Hand"/>
+    </Grid>
+</Window>

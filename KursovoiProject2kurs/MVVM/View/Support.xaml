@@ -1,0 +1,42 @@
+﻿<Window x:Class="KursovoiProject2kurs.MVVM.View.Support"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiProject2kurs.MVVM.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Support" Height="600" Width="1000" SizeToContent="Manual" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" ScrollViewer.VerticalScrollBarVisibility="Visible" UseLayoutRounding="True" AllowsTransparency="True" WindowStyle="None" Name="SupportWnd">
+    <Window.Resources>
+        <Cursor x:Key="UserCursor">E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\NormalSelect.cur</Cursor>
+    </Window.Resources>
+    <Grid Background="#272537" Cursor="{StaticResource UserCursor}">
+        <Image Source="E:\Education\kursovoi2kurs2sem\KursovoiProject2kurs\Resources\AppleSupport1.png" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Top"
+               Height="600"
+               />
+        <Button Content="&lt;" VerticalAlignment="Top" 
+                HorizontalAlignment="Left" 
+                FontSize="18"
+                Foreground="White"
+                Background="#272537"
+                BorderBrush="#272537"
+                Click="Back_Click"/>
+        <Border MinWidth="400" Margin="15" Background="White" VerticalAlignment="Center" Padding="30" MaxWidth="500" CornerRadius="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center" Text="Contact Us" FontSize="30" FontWeight="Bold" Foreground="#272537"  />
+                <TextBox Name="EmailTexBox" materialDesign:HintAssist.Hint="Email" Text="{Binding Mail}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="50" FontSize="18"/>
+                <TextBox Name="SubjectTexBox" materialDesign:HintAssist.Hint="Subject" Text="{Binding Subject}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="50" FontSize="18" />
+                <TextBox Name="MessageTexBox" materialDesign:HintAssist.Hint="Message" Text="{Binding Message}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="150" FontSize="20" />
+                <Grid>
+                    <Button HorizontalAlignment="Center" Content="Send" Command="{Binding SendMessage}" CommandParameter="{Binding ElementName=SupportWnd}"  Background="#272537"  Width="156" Cursor="Arrow"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+</Window>
